@@ -1,0 +1,79 @@
+-instalirame git bash i node.js
+
+-npm rm --global gulp - с тазо команда с "git Bash" се инсталира "gulp"(като вече сме свалили на компа gulp)
+
+-nove --version(проверяваме весрията и дали всичко е ОК, ако ни върне версия значи вс е ОК)
+
+-nmp --version(пак проверка и ако ни върне значи е ОК)
+
+-npx --version(и тоова трябва да ни върне версия)
+
+-npm instal --global gulp-cli(tuk se instalirat paketite ana gulp)
+
+-pravim si papka na desktopa primerno(tam deto sa ni proektite)C:\Users\Asus Rog Strix G17\Desktop\IT\start-gulp i tam pastvame faila gulpfile.js(D/PROGRAMI/IT)
+
+-otivame na papkata deto se slojili ---> desen buto--> git bash here i pastvame komanda "npm init" ->
+
+-> natiskame "enter-enter-entre" dokato ne ni izlezne neshto da ne pita "Y/N".. davame "y"
+i trqbwa da ni dobawi papka  fail package.json
+
+-posle pak v syshtata papka na desktopa it/startgulp pak vikame s desen buton get bash here i pishem "npm install --save-dev gulp"
+i trqbva da ni dobavi papka node_modules
+
+-pishem pak v desktop/it/startgulp komandata "gulp --version" 
+i ako ni izleznat dve versii(///primerno CLI version: 2.3.0///Local version: 4.0.2///) znachi vs e OK 
+
+-ot tuk natam puskame gulp-a.. 
+-natiskam pak get bash here - i pishem "gulp" i shte ni izlezne poredica ot greshki poneje nqmame 3 paketa
+
+-zatova pishem pak w get bash here - "npm install gulp-less" da ni instalira tozi paket gulp-less
+-instalirame "npm install gulp-rename"
+-instalirame "npm install gulp-clean-css"
+
+-veche kato sme instalirali paketite pishem v git bash "gulp" i trqbwa da ni izlezne
+[01:42:19] Using gulpfile ~\Desktop\IT\start-gulp\gulpfile.js
+[01:42:19] Starting 'default'...
+[01:42:19] Starting 'styles'...
+[01:42:19] Starting 'watch'...
+[01:42:19] Finished 'styles' after 103 ms
+-tova oznachava che sme pusnali gulp
+-GULP se spira s shortcut CTRL + C i posle pak eventualno si go puskame s git bash i pishem "gulp"
+
+--------------------------------------------------------------------------------------------------------
+
+ako ne raboti pravilno pravim nova papka new-start-gulp
+
+kopirame gulpfile.js v novata papka.... get bash here ...
+
+npm init
+npm install --save-dev gulp
+npm install gulp-less
+npm install gulp-rename
+npm install gulp-clean-css
+gulp(i ako vsichko se e intaliralo dobre shte ni izpishe che fukciite sa Starting)
+[13:44:26] Using gulpfile ~\Desktop\IT\start-gulp\new-start-gulp\gulpfile.js
+[13:44:26] Starting 'default'...
+[13:44:26] Starting 'styles'...
+[13:44:26] Starting 'watch'...
+[13:44:26] Finished 'styles' after 22 ms
+
+otvarqme visual studio code
+suzvdame edna papka less i public. 
+V papkata public suzdavame scc papka
+v papka less pravil fail koito se kazva style.less
+restartirame gitbash i pak puskale gulp
+posle pishem v style.less primerno h1 {
+  margin: 0; 
+}
+-i trqbva da ni suzdade fail main.min.css v papka public->css i da ni pokaje sukraten kod.. 
+taka razbirame che raboti
+
+
+
+
+
+
+
+
+
+
